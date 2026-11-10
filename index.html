@@ -1,0 +1,3494 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Product management portfolio — software delivery, technical coordination, healthcare SaaS workflows." name="description"/>
+  <title>
+   Joel Hernandez | Product &amp; Technical Delivery
+  </title>
+  <style>:root{--navy:#101d33;--blue:#2766bd;--light:#f4f7fb;--muted:#536276;--line:#dce4ef}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--navy);font:16px/1.65 system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:#fff}a{color:var(--blue)}.wrap{max-width:1080px;margin:auto;padding:0 28px}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);z-index:3}.nav{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:20px}.brand{font-weight:800;letter-spacing:-.4px}.navlinks{display:flex;gap:22px;font-size:14px}.navlinks a{text-decoration:none;color:var(--navy)}.hero{background:linear-gradient(115deg,#101d33,#183b68);color:#fff;padding:92px 0 85px}.eyebrow{text-transform:uppercase;letter-spacing:2px;color:#8fc5ff;font-size:12px;font-weight:800}.hero h1{font-size:clamp(38px,6vw,68px);letter-spacing:-2px;line-height:1.12;margin:15px 0}.hero p{max-width:720px;font-size:19px;color:#dce9fa}.pill{display:inline-block;padding:8px 13px;border:1px solid #6783a9;border-radius:30px;margin:10px 7px 0 0;font-size:13px}.btn{display:inline-block;background:#fff;color:#163d6e;border-radius:8px;text-decoration:none;font-weight:750;padding:12px 20px;margin-top:26px}.section{padding:74px 0}.section.alt{background:var(--light)}h2{font-size:32px;letter-spacing:-.8px;margin:0 0 10px}.intro{color:var(--muted);max-width:760px;margin:0 0 30px}.rule{height:3px;background:linear-gradient(90deg,var(--blue) 0 90px,var(--line) 90px);margin:20px 0 30px}.grid{display:grid;grid-template-columns:1fr;gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:27px;box-shadow:0 6px 22px #172b4810}.card h3{margin:8px 0;font-size:21px}.tag{font-size:12px;color:#2160a8;text-transform:uppercase;letter-spacing:1.3px;font-weight:800}.card p{color:var(--muted);margin:8px 0}.card ul{padding-left:20px;margin:12px 0 0}.card li{margin-bottom:7px}.wide{grid-column:1/-1}.split{display:grid;grid-template-columns:1fr 1fr;gap:36px}.steps{counter-reset:s}.process-list{list-style:disc;margin:28px 0 0;padding-left:27px}.process-list li{padding:13px 2px 13px 4px;border-bottom:1px solid var(--line)}.process-list li::marker{color:var(--blue);font-size:17px}.process-list b,.process-list .muted{display:block}.foot{background:#101d33;color:#d5e3f5;padding:35px 0}.foot p{margin:5px 0}.note{background:#eaf2fd;border-left:4px solid #2766bd;padding:16px 20px;border-radius:4px;color:#294563}.contact{display:flex;gap:12px;flex-wrap:wrap}.contact a{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:10px 16px;text-decoration:none}.muted{color:var(--muted)}@media(max-width:700px){.grid,.split{grid-template-columns:1fr}.navlinks{gap:10px;font-size:12px}.hero{padding:62px 0}.section{padding:52px 0}.wrap{padding:0 20px}}
+/* Featured CRM case study */
+.case-link{display:inline-block;margin-top:15px;font-weight:750;text-decoration:none}.case-link:hover,.case-back:hover{text-decoration:underline}
+.case-study{background:#fff;scroll-margin-top:80px}.case-study h3{letter-spacing:-.3px}.case-lead{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:30px 0 42px}.case-lead>div{background:#f4f7fb;border:1px solid var(--line);border-radius:14px;padding:28px}.case-lead h3{font-size:22px;margin:10px 0}.case-lead p,.case-feature p,.case-outcome p{color:var(--muted);margin:8px 0}.case-subhead{font-size:25px;margin:35px 0 18px}.journey{display:grid;grid-template-columns:1fr 30px 1fr 30px 1fr;align-items:stretch;gap:10px;margin-bottom:38px}.journey-step{background:#112744;color:#fff;border-radius:12px;padding:23px}.journey-step h4{font-size:20px;margin:0 0 8px}.journey-step p{color:#dce9fa;font-size:14px;margin:0}.journey-arrow{align-self:center;text-align:center;color:var(--blue);font-size:28px}.case-features{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.case-feature{border:1px solid var(--line);border-radius:12px;padding:24px}.case-feature h4{font-size:19px;margin:9px 0}.case-outcome{background:#eaf2fd;border-left:4px solid var(--blue);padding:27px 30px;border-radius:8px;margin:28px 0}.case-outcome h3{margin:10px 0}.case-footnote{font-size:13px;color:var(--muted);max-width:850px}.case-back{display:inline-block;margin-top:15px;text-decoration:none;font-weight:700}
+@media(max-width:700px){.case-lead,.case-features{grid-template-columns:1fr}.journey{grid-template-columns:1fr;gap:8px}.journey-arrow{transform:rotate(90deg);font-size:22px}.journey-step{padding:20px}}
+
+/* Case management study: subtle alternating background */
+#case-management .case-lead > div,#case-management .case-feature{background:#fff}
+#case-management .case-feature p{color:var(--muted)}
+
+/* Compact case-study browser: keep detailed content available on demand. */
+.case-browser{max-width:1080px;margin:0 auto;padding:40px 28px 12px;scroll-margin-top:86px}
+.case-browser-heading h2{margin-bottom:4px}
+.case-browser-heading .intro{margin:0 0 20px}
+.case-tabs{display:flex;flex-wrap:wrap;gap:9px;padding:7px;background:#eef3f9;border:1px solid #d7e3f0;border-radius:13px}
+.case-tab{appearance:none;border:1px solid transparent;background:transparent;color:#2c4059;padding:11px 16px;border-radius:9px;font:700 14px/1.4 inherit;cursor:pointer;text-align:left}
+.case-tab:hover{background:#fff}
+.case-tab[aria-selected="true"]{background:#fff;border-color:#b7cce5;color:#164d91;box-shadow:0 2px 9px #172b4812}
+.case-tab:focus-visible{outline:3px solid #2766bd;outline-offset:2px}
+.case-panel{padding-top:27px;padding-bottom:52px}
+.case-panel[hidden]{display:none!important}
+.case-panel .case-lead>div{background:#eaf1f9;border-color:#c8d8eb}
+.case-panel .case-feature{background:#f1f6fc;border-color:#d1e0ef;box-shadow:0 3px 10px #152b4610}
+.case-panel .case-feature:nth-child(even){background:#eaf2fb}
+#case-management.case-panel .case-lead>div{background:#eaf1f9}
+#case-management.case-panel .case-feature{background:#f1f6fc}
+#case-management.case-panel .case-feature:nth-child(even){background:#eaf2fb}
+@media(max-width:700px){.case-browser{padding:30px 20px 10px}.case-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.case-tab{padding:10px;font-size:13px}.case-panel{padding-top:20px;padding-bottom:40px}}
+
+/* Project summaries now live inside their respective tabs. */
+.case-panel .case-summary{background:#e9f1fb;border:1px solid #c6d8ed;box-shadow:0 4px 16px #172b4812;margin:0 0 34px;padding:25px 28px}
+.case-panel .case-summary h3{font-size:23px}
+.case-panel .case-summary p{max-width:920px}
+.case-panel .case-summary .case-link{display:inline-block;margin-top:10px}
+.case-panel h2[id^="detail-"]{scroll-margin-top:96px}
+.case-browser-heading .intro:last-child{font-size:13px;margin-top:8px;max-width:850px}
+@media(max-width:700px){.case-panel .case-summary{padding:20px;margin-bottom:27px}}
+
+/* Hero shortcuts to all major portfolio sections */
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;align-items:center}
+.hero-actions .btn{display:inline-flex;align-items:center;justify-content:center;margin:0;text-decoration:none;white-space:nowrap}
+.hero-actions .btn-secondary{background:#fff;color:#20558d;border:1px solid #b8cbe2;box-shadow:none}
+.hero-actions .btn-secondary:hover{background:#eaf2fb;border-color:#7fa8d6}
+#case-browser,#process,#about,#contact{scroll-margin-top:85px}
+@media(max-width:600px){.hero-actions{gap:9px}.hero-actions .btn{white-space:normal;text-align:center}}
+
+/* Expertise is descriptive metadata, not interactive controls. */
+.hero-expertise{display:flex;flex-wrap:wrap;align-items:center;gap:5px 12px;margin:22px 0 0!important;max-width:none!important;font-size:14px!important;line-height:1.6;color:#c9d8ea!important}
+.hero-expertise-item{display:inline;color:#dce9fa;font-weight:500}
+.hero-expertise-separator{color:#83a5ca;font-size:17px;user-select:none}
+@media(max-width:600px){.hero-expertise{gap:4px 9px;font-size:13px!important}}
+
+/* Connect: distinct, accessible actions rather than long text links. */
+#contact .contact{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
+#contact .contact-action{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-width:145px;padding:12px 23px;border-radius:10px;text-decoration:none;font-size:15px;font-weight:650;line-height:1.35;transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease}
+#contact .contact-primary{background:#2766bd;color:#fff;border:1px solid #2766bd}
+#contact .contact-primary:hover{background:#194f9a;border-color:#194f9a}
+#contact .contact-secondary{background:#fff;color:#2359a8;border:1px solid #b8cbe2}
+#contact .contact-secondary:hover{background:#eef4fc;border-color:#7fa8d6}
+#contact .contact-action:focus-visible{outline:3px solid #2766bd;outline-offset:3px}
+#contact .contact-icon{font-size:18px;line-height:1}
+#contact .contact-details{font-size:14px;color:#536276;margin:4px 0 20px}
+#contact .contact-details a{color:#315b8b;text-decoration:none}
+#contact .contact-details a:hover{text-decoration:underline}
+@media(max-width:460px){#contact .contact-action{flex:1;min-width:120px}}
+
+/* Distinct, unified region for the project tabs and their selected case study */
+.project-showcase{
+  background:#f1f5fa;
+  border-top:1px solid #dbe5f0;
+  border-bottom:1px solid #cbd9e9;
+  padding:20px 0 48px;
+}
+.project-showcase .case-browser{padding-top:34px;padding-bottom:18px}
+.project-showcase .case-panel{
+  background:#fff;
+  max-width:1080px;
+  margin:0 auto;
+  padding:34px 28px 42px;
+  border:1px solid #d4e1ee;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(20,44,76,.06);
+}
+.project-showcase .case-panel[hidden]{display:none!important}
+.project-showcase + #process{padding-top:88px}
+@media(max-width:700px){
+  .project-showcase{padding:8px 12px 32px}
+  .project-showcase .case-browser{padding:28px 8px 16px}
+  .project-showcase .case-panel{padding:26px 18px 30px;border-radius:12px}
+  .project-showcase + #process{padding-top:60px}
+}
+
+/* Clear clickable tab states, without changing the project section background. */
+.project-showcase .case-tabs{background:#e8eff8;border:1px solid #c6d6e9;gap:9px;padding:9px}
+.project-showcase .case-tab{background:#fff;border:1px solid #b6c9df;color:#213e62;border-radius:9px;padding:12px 17px;font-weight:650;box-shadow:0 1px 3px rgba(20,45,80,.06);transition:background-color .16s,border-color .16s,box-shadow .16s,color .16s}
+.project-showcase .case-tab:hover:not([aria-selected="true"]){background:#d9e9fa;border-color:#467ab6;color:#123f78;box-shadow:0 2px 7px rgba(20,45,80,.13)}
+.project-showcase .case-tab[aria-selected="true"]{background:#2359a8;border-color:#2359a8;color:#fff;box-shadow:0 3px 9px rgba(35,89,168,.20)}
+.project-showcase .case-tab:focus-visible{outline:3px solid #f0a942;outline-offset:3px}
+@media(max-width:700px){.project-showcase .case-tab{padding:12px 10px}}
+
+/* Single-row scrollable project tabs, inspired by PrimeNG scrollable tabs */
+.case-tabs-navigation{display:flex;align-items:stretch;gap:8px;min-width:0;width:100%}
+.case-tabs-viewport{flex:1;min-width:0;overflow-x:auto;overflow-y:hidden;scroll-behavior:smooth;scrollbar-width:none;overscroll-behavior-x:contain}
+.case-tabs-viewport::-webkit-scrollbar{display:none}
+.project-showcase .case-tabs{display:flex!important;flex-wrap:nowrap!important;grid-template-columns:none!important;width:max-content;min-width:100%;box-sizing:border-box}
+.project-showcase .case-tab{flex:0 0 auto;white-space:nowrap}
+.case-scroll-button{appearance:none;flex:0 0 42px;border:1px solid #b6c9df;border-radius:9px;background:#fff;color:#2359a8;font-size:27px;font-weight:700;line-height:1;cursor:pointer;box-shadow:0 1px 4px #172b4818;transition:background .16s,border-color .16s}
+.case-scroll-button:hover{background:#d9e9fa;border-color:#467ab6}
+.case-scroll-button:focus-visible{outline:3px solid #f0a942;outline-offset:2px}
+.case-scroll-button[hidden]{visibility:hidden!important;pointer-events:none}
+@media(max-width:700px){.project-showcase .case-tab{padding:12px 14px}.case-scroll-button{flex-basis:36px}}
+
+
+/* Compact, visible project-card selector. All projects remain discoverable without scrolling. */
+.project-showcase .case-tabs{
+ display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;
+ width:100%!important;min-width:0!important;gap:10px!important;
+ padding:10px!important;box-sizing:border-box;
+}
+.project-showcase .case-tab{
+ display:flex!important;flex-direction:row;align-items:center;justify-content:flex-start;
+ min-width:0!important;white-space:normal!important;gap:10px;
+ padding:13px 14px!important;min-height:62px;text-align:left;
+ border-radius:10px;
+}
+.project-card-icon{
+ display:grid;place-items:center;flex:0 0 30px;width:30px;height:30px;
+ background:#e9f1fa;border-radius:8px;color:#245ca6;
+ font-size:20px;line-height:1;
+}
+.project-showcase .case-tab[aria-selected="true"] .project-card-icon{background:rgba(255,255,255,.2);color:#fff}
+.project-card-label{font-size:13px;font-weight:650;line-height:1.3;overflow-wrap:break-word}
+@media(max-width:760px){
+ .project-showcase .case-tabs{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important}
+ .project-showcase .case-tab{min-height:54px;padding:10px!important;gap:7px}
+ .project-card-icon{flex-basis:26px;width:26px;height:26px;font-size:18px}
+ .project-card-label{font-size:12px}
+}
+@media(max-width:360px){.project-card-icon{display:none}}
+</style>
+ </head>
+ <body>
+  <header>
+   <div class="wrap nav">
+    <div class="brand">
+     JOEL HERNANDEZ
+     <span style="color:#2766bd">
+      / PORTFOLIO
+     </span>
+    </div>
+    <nav class="navlinks">
+     <a href="#case-browser">
+      Projects
+     </a>
+     <a href="#process">
+      Process
+     </a>
+     <a href="#about">
+      About
+     </a>
+     <a href="#contact">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="hero">
+    <div class="wrap">
+     <div class="eyebrow">
+      Product management · Software delivery · Technical coordination
+     </div>
+     <h1>
+      Turning Business Challenges
+      <br/>
+      into Software Solutions.
+     </h1>
+     <p>
+      Product Manager and Healthcare Analyst with experience translating business needs into development work, coordinating web/API/backend teams, validating features, and supporting software releases.
+     </p>
+     <p aria-label="Areas of expertise" class="hero-expertise">
+      <span class="hero-expertise-item">
+       Agile &amp; Scrum
+      </span>
+      <span aria-hidden="true" class="hero-expertise-separator">
+       ·
+      </span>
+      <span class="hero-expertise-item">
+       Cross-functional delivery
+      </span>
+      <span aria-hidden="true" class="hero-expertise-separator">
+       ·
+      </span>
+      <span class="hero-expertise-item">
+       Functional QA
+      </span>
+      <span aria-hidden="true" class="hero-expertise-separator">
+       ·
+      </span>
+      <span class="hero-expertise-item">
+       B2B software
+      </span>
+     </p>
+     <div class="hero-actions">
+      <a class="btn" href="#case-browser">
+       Explore My Projects
+      </a>
+      <a class="btn btn-secondary" href="#process">
+       How I Work
+      </a>
+      <a class="btn btn-secondary" href="#about">
+       About Me
+      </a>
+      <a class="btn btn-secondary" href="#contact">
+       Connect
+      </a>
+     </div>
+    </div>
+   </section>
+   <div aria-label="Project case studies" class="project-showcase">
+    <div aria-label="Case study selector" class="case-browser" id="case-browser">
+     <div class="case-browser-heading">
+      <h2>
+       Explore My Projects
+      </h2>
+      <p class="intro">
+       Choose a project to read its full story.
+      </p>
+      <p class="intro">
+       Project descriptions based on my work on Syncrasy at MedCloud Depot. These case studies focus on my contributions and the problems we solved. Product specifications and screenshots are not included to protect confidential company information.
+      </p>
+     </div>
+     <div aria-label="Product case studies" class="case-tabs" role="tablist">
+      <button aria-controls="reporting-dashboards" aria-selected="false" class="case-tab" data-case="reporting-dashboards" id="tab-reporting-dashboards" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M4 19V5M4 19h16M8 15v-4M12 15V7M16 15V9M20 15V4">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Reporting &amp; Dashboards
+       </span>
+      </button>
+      <button aria-controls="account-settings" aria-selected="false" class="case-tab" data-case="account-settings" id="tab-account-settings" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg aria-hidden="true" fill="currentColor" height="21" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M 8.939 4.609 L 10.065 4.238 L 9.997 1.693 L 14.003 1.693 L 13.935 4.238 L 15.061 4.609 L 16.120 5.143 L 17.872 3.295 L 20.705 6.128 L 18.857 7.880 L 19.391 8.939 L 19.762 10.065 L 22.307 9.997 L 22.307 14.003 L 19.762 13.935 L 19.391 15.061 L 18.857 16.120 L 20.705 17.872 L 17.872 20.705 L 16.120 18.857 L 15.061 19.391 L 13.935 19.762 L 14.003 22.307 L 9.997 22.307 L 10.065 19.762 L 8.939 19.391 L 7.880 18.857 L 6.128 20.705 L 3.295 17.872 L 5.143 16.120 L 4.609 15.061 L 4.238 13.935 L 1.693 14.003 L 1.693 9.997 L 4.238 10.065 L 4.609 8.939 L 5.143 7.880 L 3.295 6.128 L 6.128 3.295 L 7.880 5.143 Z M 12 8.5 A 3.5 3.5 0 1 0 12 15.5 A 3.5 3.5 0 1 0 12 8.5 Z" fill-rule="evenodd">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Account Settings
+       </span>
+      </button>
+      <button aria-controls="patient-crm" aria-selected="false" class="case-tab" data-case="patient-crm" id="tab-patient-crm" role="tab" tabindex="0" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        ♙
+       </span>
+       <span class="project-card-label">
+        Patient CRM
+       </span>
+      </button>
+      <button aria-controls="case-management" aria-selected="false" class="case-tab" data-case="case-management" id="tab-case-management" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        ☷
+       </span>
+       <span class="project-card-label">
+        Case Management
+       </span>
+      </button>
+      <button aria-controls="hospital-alerts" aria-selected="false" class="case-tab" data-case="hospital-alerts" id="tab-hospital-alerts" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        ♧
+       </span>
+       <span class="project-card-label">
+        Hospital Alerts
+       </span>
+      </button>
+      <button aria-controls="claims-referrals" aria-selected="false" class="case-tab" data-case="claims-referrals" id="tab-claims-referrals" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        ▤
+       </span>
+       <span class="project-card-label">
+        Claims &amp; Referrals
+       </span>
+      </button>
+      <button aria-controls="appointment-scheduling" aria-selected="false" class="case-tab" data-case="appointment-scheduling" id="tab-appointment-scheduling" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        ▦
+       </span>
+       <span class="project-card-label">
+        Appointments
+       </span>
+      </button>
+      <button aria-controls="provider-assessment" aria-selected="false" class="case-tab" data-case="provider-assessment" id="tab-provider-assessment" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        ☑
+       </span>
+       <span class="project-card-label">
+        Provider Assessment
+       </span>
+      </button>
+      <button aria-controls="patient-chart" aria-selected="false" class="case-tab" data-case="patient-chart" id="tab-patient-chart" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M3 7a2 2 0 0 1 2-2h5l2.2 2.5H19a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z">
+         </path>
+         <path d="M3 10h18">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Patient Chart
+       </span>
+      </button>
+      <button aria-controls="survey-component" aria-selected="false" class="case-tab" data-case="survey-component" id="tab-survey-component" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <rect height="17" rx="2" width="14" x="5" y="5">
+         </rect>
+         <path d="M9 5V3h6v2M9 11h6m-6 4h6m-6 4h4">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Survey Component
+       </span>
+      </button>
+      <button aria-controls="downstream-providers" aria-selected="false" class="case-tab" data-case="downstream-providers" id="tab-downstream-providers" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <rect height="15" rx="2" width="18" x="3" y="6">
+         </rect>
+         <path d="M3 10h18M7 6V3h11">
+         </path>
+         <circle cx="17" cy="15" r="1">
+         </circle>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Downstream Providers
+       </span>
+      </button>
+      <button aria-controls="task-manager" aria-selected="false" class="case-tab" data-case="task-manager" id="tab-task-manager" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <rect height="18" rx="2" width="16" x="4" y="3">
+         </rect>
+         <path d="m8 10 2 2 4-4M8 17h8">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Task Manager
+       </span>
+      </button>
+      <button aria-controls="rewards-program" aria-selected="false" class="case-tab" data-case="rewards-program" id="tab-rewards-program" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <rect height="13" rx="2" width="18" x="3" y="8">
+         </rect>
+         <path d="M3 12h18M12 8v13M12 8c-5-1-7-3-6-5 2-3 6 0 6 5Zm0 0c5-1 7-3 6-5-2-3-6 0-6 5Z">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Rewards Program
+       </span>
+      </button>
+      <button aria-controls="automated-reporting" aria-selected="false" class="case-tab" data-case="automated-reporting" id="tab-automated-reporting" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Automated Reports
+       </span>
+      </button>
+      <button aria-controls="patient-messaging" aria-selected="false" class="case-tab" data-case="patient-messaging" id="tab-patient-messaging" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M4 4h16v13H9l-5 4V4Z">
+         </path>
+         <path d="M8 9h8m-8 4h6">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Patient Messaging
+       </span>
+      </button>
+      <button aria-controls="patient-accounting" aria-selected="false" class="case-tab" data-case="patient-accounting" id="tab-patient-accounting" role="tab" tabindex="-1" type="button">
+       <span aria-hidden="true" class="project-card-icon">
+        <svg fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M5 3h14v18l-3-2-4 2-4-2-3 2V3Z">
+         </path>
+         <path d="M8 8h8m-8 4h8m-8 4h4">
+         </path>
+        </svg>
+       </span>
+       <span class="project-card-label">
+        Patient Accounting
+       </span>
+      </button>
+     </div>
+    </div>
+    <section class="section case-study case-panel" hidden="" id="patient-crm">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        Patient Lifecycle Management
+       </div>
+       <h3>
+        Patient CRM — Engagement, Enrollment &amp; Retention
+       </h3>
+       <p>
+        <b>
+         Challenge:
+        </b>
+        Three departments relied on disconnected tools, resulting in duplicated effort and scattered patient outreach records.
+       </p>
+       <p>
+        <b>
+         My contribution:
+        </b>
+        Interviewed department leaders and frontline staff, mapped shared challenges, and helped design connected workflows that improved coordination, information consistency, and clearer reporting.
+       </p>
+       <p>
+        <b>
+         Focus:
+        </b>
+        Product discovery · End-to-end workflow design · Data integrity · Access controls · Healthcare analytics
+       </p>
+       <a class="case-link" href="#detail-patient-crm">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       Patient Lifecycle Management
+      </div>
+      <h2 id="detail-patient-crm">
+       Connecting Patient Outreach, Enrollment, and Retention.
+      </h2>
+      <p class="intro">
+       Patient CRM · Healthcare SaaS · Engagement → Enrollment → Retention
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         Three teams. Disconnected tools. Repeated work.
+        </h3>
+        <p>
+         Outreach, enrollment, and retention teams relied on separate tools and processes to manage different stages of the patient journey. That led to repeated data entry, difficulty seeing previous conversations, and extra coordination whenever work moved from one department to another.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Start with the people doing the work.
+        </h3>
+        <p>
+         I interviewed department leaders and the employees handling daily outreach and enrollment activities to understand their different responsibilities and common problems. I used those findings to help shape three connected experiences, each tailored to its users while supporting easier handoffs and more consistent information across the patient lifecycle.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       The connected workflow
+      </h3>
+      <div aria-label="Patient CRM workflow" class="journey">
+       <div class="journey-step">
+        <h4>
+         Engagement
+        </h4>
+        <p>
+         Help outreach teams organize prospective patients, manage initial interactions, and identify when a person is ready for the next stage.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Enrollment
+        </h4>
+        <p>
+         Support enrollment specialists with a more continuous process, reducing the need to recreate information already gathered earlier.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Retention
+        </h4>
+        <p>
+         Help teams manage ongoing patient relationships, changing needs, and timely follow-up with more information about previous interactions.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         Connected Patient Data
+        </div>
+        <h4>
+         More consistent information across handoffs
+        </h4>
+        <p>
+         Helped design a connected patient journey in which important information could be shared between teams. We focused on reducing duplicate work, improving data quality, and making transitions more dependable without requiring each department to operate in the same way.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Cross-Team Communication
+        </div>
+        <h4>
+         Better visibility into patient outreach
+        </h4>
+        <p>
+         Recognized that scattered communication records made coordinated outreach difficult. Helped improve the ability for teams to see into prior patient interactions and follow-up needs, allowing staff to make better-informed decisions about when and how to reconnect.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Workflow Efficiency
+        </div>
+        <h4>
+         Turning reporting into action
+        </h4>
+        <p>
+         Worked on ways to make information from reports more useful in day-to-day patient management. The focus was on reducing repetitive administrative steps and helping teams respond more efficiently to groups of patients who needed attention.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Data Integrity &amp; Accountability
+        </div>
+        <h4>
+         Greater confidence in shared records
+        </h4>
+        <p>
+         Identified the importance of clear ownership of work when multiple departments contribute to a shared patient record. Helped shape safeguards and visibility that supported reliable information, appropriate access, and confidence in how work was attributed.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Executive Decision Support
+        </div>
+        <h4>
+         Clearer priorities for staff and leadership
+        </h4>
+        <p>
+         Helped define tailored views for different users, from frontline staff managing daily tasks to leaders monitoring team activity. The goal was to make priorities easier to act on and give decision-makers a clearer understanding of performance without overwhelming users with irrelevant information.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        From separate tasks to a clearer patient history
+       </h3>
+       <p>
+        The project helped transform three disconnected departmental processes into a more connected experience for teams working with patients. Its design emphasized better handoffs between teams, less repeated administrative work, more informed outreach, stronger accountability, and more useful clearer reporting. These are qualitative contributions and intended benefits; no unverified numerical results are claimed.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Client discovery, workflow analysis, product design and development coordination in collaboration with the broader Syncrasy team. This case study omits patient information, internal screenshots, and proprietary implementation details.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+    <section class="section case-study case-panel" hidden="" id="case-management">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        Care Coordination
+       </div>
+       <h3>
+        Case Management
+       </h3>
+       <p>
+        <b>
+         Challenge:
+        </b>
+        Reduce administrative friction and improve consistency in complex case management work.
+       </p>
+       <p>
+        <b>
+         My contribution:
+        </b>
+        Collaborated with a practicing case manager to shape a user-centered experience supporting documentation, coordination, and clearer reporting.
+       </p>
+       <p>
+        <b>
+         Focus:
+        </b>
+        Stakeholder discovery · Workflow design · Usability · Reporting
+       </p>
+       <a class="case-link" href="#detail-case-management">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       Care Coordination
+      </div>
+      <h2 id="detail-case-management">
+       Making Case Management Easier to Document, Act on, and Measure.
+      </h2>
+      <p class="intro">
+       Case Management · Healthcare SaaS · medical information · Structured workflows
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         Complex care work. Too much manual documentation.
+        </h3>
+        <p>
+         Case management teams balance complex patient needs, documentation, ongoing coordination, and performance reporting. information spread across different places and inconsistent documentation can make daily work more time-consuming and difficult to evaluate.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Design around a case manager’s actual day.
+        </h3>
+        <p>
+         I collaborated with a practicing case manager to understand real-world needs, identify steps that slowed people down, and shape a easier-to-use experience. My focus was on making routine work easier, improving information consistency, and supporting more useful reporting while letting case managers make their own care decisions.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       The case management workflow
+      </h3>
+      <div aria-label="Case management workflow" class="journey">
+       <div class="journey-step">
+        <h4>
+         Understand the work
+        </h4>
+        <p>
+         Learn how case managers assess needs and coordinate care.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Simplify the experience
+        </h4>
+        <p>
+         Design clearer, more consistent ways to document and manage cases.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Support ongoing care
+        </h4>
+        <p>
+         Make follow-up activities and clearer reporting easier to manage.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         User-Centered Discovery
+        </div>
+        <h4>
+         Designed with frontline expertise
+        </h4>
+        <p>
+         Worked directly with a practicing case manager to translate day-to-day challenges into product requirements and workflow improvements.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Information Accessibility
+        </div>
+        <h4>
+         Relevant context in one experience
+        </h4>
+        <p>
+         Helped improve access to information needed for case management decisions, reducing friction caused by navigating fragmented systems.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Documentation Experience
+        </div>
+        <h4>
+         Less repetitive administrative work
+        </h4>
+        <p>
+         Helped design a more consistent documentation experience that balanced clear steps with flexibility for individual circumstances.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Workflow Improvement
+        </div>
+        <h4>
+         Simpler assessments and planning
+        </h4>
+        <p>
+         Contributed to improvements that made routine assessment and care-planning activities easier to complete and maintain.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Care Coordination
+        </div>
+        <h4>
+         More coordinated follow-up
+        </h4>
+        <p>
+         Helped bring communication and follow-up activities into a more connected workflow for teams managing ongoing patient needs.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Reporting &amp; Visibility
+        </div>
+        <h4>
+         More useful information for managers
+        </h4>
+        <p>
+         Considered reporting needs during product design so that day-to-day work could support clearer reporting and review.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        Less repetitive entry. case information that is easier to use.
+       </h3>
+       <p>
+        The resulting experience was designed to streamline routine work, improve consistency, and make case management information more useful to both staff and leadership. These describe design goals and delivered capabilities, not independently measured performance gains.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Stakeholder interviews, workflow analysis, product design, and delivery collaboration with a practicing case manager and the wider Syncrasy team. Descriptions are intentionally high-level and contain no patient information, internal screenshots, or proprietary technical specifications.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+    <section class="section case-study case-panel" hidden="" id="hospital-alerts">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        sharing healthcare information
+       </div>
+       <h3>
+        Hospital Admission Alerts
+       </h3>
+       <p>
+        <b>
+         Challenge:
+        </b>
+        Turn existing hospital notifications into coordinated, trackable care team action.
+       </p>
+       <p>
+        <b>
+         Contribution:
+        </b>
+        Helped design workflows for alert review, provider acknowledgment, team coordination, and clearer reporting.
+       </p>
+       <p>
+        <b>
+         Skills:
+        </b>
+        Workflow design · sharing healthcare information · Stakeholder needs · Reporting
+       </p>
+       <a class="case-link" href="#detail-hospital-alerts">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       sharing healthcare information
+      </div>
+      <h2 id="detail-hospital-alerts">
+       Turning Hospital Admission Notifications into Coordinated Follow-up.
+      </h2>
+      <p class="intro">
+       Hospital Admission Alerts · Healthcare SaaS · Care coordination · Workflow design
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         Alerts without a clear path to action.
+        </h3>
+        <p>
+         The platform already delivered timely hospital admission notifications, but teams lacked a consistent way to review, act on, and document their responses. Updates from external sources could also be incomplete or delayed, making it difficult to know the current situation or whether someone had followed up.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Connect incoming information with real-world care workflows.
+        </h3>
+        <p>
+         I examined how clinical and operational users responded to alerts and helped shape a workflow that connected notifications with follow-up activity. The design balanced incoming information with staff judgment, supported clearer responsibility, and accommodated the different needs of care teams and providers.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       From notification to coordinated action
+      </h3>
+      <div aria-label="Hospital admission alert workflow" class="journey">
+       <div class="journey-step">
+        <h4>
+         Review the event
+        </h4>
+        <p>
+         Bring relevant details about the hospital visit together so teams can understand what requires attention.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Coordinate a response
+        </h4>
+        <p>
+         Make it easier for the right users to review, acknowledge, and act on an alert.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Track progress
+        </h4>
+        <p>
+         Maintain visibility into follow-up activity and broader overall trends.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         Event Visibility
+        </div>
+        <h4>
+         Clearer context for each hospital event
+        </h4>
+        <p>
+         Helped create a more connected experience for reviewing hospital-related events, giving users relevant context and a clearer picture of an individual patient’s recent care activity.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Information Reliability
+        </div>
+        <h4>
+         Handling incomplete or changing information
+        </h4>
+        <p>
+         Recognized that external notifications do not always reflect the full or most current situation. Helped design a workflow that supported informed review and staff updates without assuming incoming data was always complete.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Team Coordination
+        </div>
+        <h4>
+         A shared understanding of what happened next
+        </h4>
+        <p>
+         Addressed gaps in visibility between teams by connecting alert review with documented outreach and follow-up activity. This made it easier to understand whether an event had been addressed and reduced the risk of disconnected efforts.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Provider Experience
+        </div>
+        <h4>
+         Fast acknowledgment without unnecessary steps
+        </h4>
+        <p>
+         Helped shape a streamlined experience for providers who needed to review alerts quickly. The goal was to make acknowledgment and common next steps straightforward while keeping their activity visible within the care team workflow.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Follow-Up Management
+        </div>
+        <h4>
+         Keeping follow-up work organized
+        </h4>
+        <p>
+         Supported a more organized approach to managing ongoing outreach and follow-up responsibilities, with attention to different user roles and the need to avoid unnecessary repeat contact.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         reports
+        </div>
+        <h4>
+         Making response activity measurable
+        </h4>
+        <p>
+         Contributed to reports for managers into alert activity, follow-up, and acknowledgment trends, helping teams evaluate engagement and identify opportunities for improving daily work.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        From alerts to clearer follow-up.
+       </h3>
+       <p>
+        The work extended an existing notification capability into a more actionable care coordination experience. It was designed to improve clarity, reduce fragmented follow-up, make provider participation easier, and give leaders better visibility into response activity.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Workflow analysis, product design, requirements collaboration, and delivery support. This case study intentionally omits proprietary data handling rules, access configurations, and detailed implementation logic.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+    <section class="section case-study case-panel" hidden="" id="claims-referrals">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        Administrative Workflows
+       </div>
+       <h3>
+        Claims &amp; Referral Submission
+       </h3>
+       <p>
+        <b>
+         Challenge:
+        </b>
+        Simplify established claims and referral workflows while improving visibility into outcomes and referral decisions.
+       </p>
+       <p>
+        <b>
+         Contribution:
+        </b>
+        Helped reduce repetitive entry, improve submission consistency, and shape reporting and referral decision-support experiences.
+       </p>
+       <p>
+        <b>
+         Skills:
+        </b>
+        workflow improvements · Healthcare data · Product delivery · Decision support
+       </p>
+       <a class="case-link" href="#detail-claims-referrals">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       Revenue Cycle &amp; Care Navigation
+      </div>
+      <h2 id="detail-claims-referrals">
+       Making Claims and Referral Submission Simpler and More Informed.
+      </h2>
+      <p class="intro">
+       Claims &amp; Referral Submission · Healthcare SaaS · workflow improvements · Decision support
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         Complex submissions demanded too much repetitive work.
+        </h3>
+        <p>
+         Existing claims and referral capabilities supported important administrative tasks, but users still faced repetitive entry, complex coding requirements, and limited visibility into what happened after submission. Referral decisions could also be made without convenient access to relevant historical or cost information.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Reduce friction while improving visibility into what happened after submission.
+        </h3>
+        <p>
+         I helped improve established workflows by identifying information that could be made available earlier, simplifying repetitive steps, and designing clearer ways to review submission outcomes. I also contributed to decision-support experiences that made existing clinical and financial information more useful during referral planning.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       From administrative effort to informed action
+      </h3>
+      <div aria-label="From administrative effort to informed action" class="journey">
+       <div class="journey-step">
+        <h4>
+         Prepare
+        </h4>
+        <p>
+         Present relevant patient and provider context to reduce repetitive work.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Submit
+        </h4>
+        <p>
+         Make claim and referral entry more straightforward and consistent.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Review
+        </h4>
+        <p>
+         Give teams better visibility into outcomes and potential next steps.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         Workflow Simplification
+        </div>
+        <h4>
+         Less manual setup for routine submissions
+        </h4>
+        <p>
+         Helped streamline existing claim and referral experiences so users could focus on information specific to the service being documented, rather than repeatedly entering details already available within the platform.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Submission Quality
+        </div>
+        <h4>
+         More consistent, reliable data entry
+        </h4>
+        <p>
+         Worked on improvements that made complex coding and submission tasks easier to complete accurately, with attention to reducing avoidable omissions and unnecessary user effort.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Claims Visibility
+        </div>
+        <h4>
+         A clearer picture after submission
+        </h4>
+        <p>
+         Contributed to reporting and review capabilities that helped users understand how submitted claim information appeared in subsequent payer-related data, making unresolved items easier to identify and investigate.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         medical information
+        </div>
+        <h4>
+         More useful information during review
+        </h4>
+        <p>
+         Helped surface relevant historical and medical information within administrative workflows, supporting better-informed decisions without forcing users to piece together information from separate areas.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Referral Decision Support
+        </div>
+        <h4>
+         better understanding of referral options
+        </h4>
+        <p>
+         Contributed to a referral experience that made provider options and estimated financial considerations easier to evaluate. The focus was on helping users make more informed choices while recognizing that estimates are not guaranteed costs.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Product Complexity
+        </div>
+        <h4>
+         Translating complex requirements into easier-to-use features
+        </h4>
+        <p>
+         Collaborated on features that required balancing complex healthcare data, business requirements, and a simple interface for frontline users.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        Less Data Entry and Better Information for Decisions.
+       </h3>
+       <p>
+        These improvements aimed to make claims and referrals faster to prepare, easier to review, and more informative after submission. The work also extended the product beyond basic transactions by supporting greater visibility into claim outcomes and more informed referral decisions.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Product discovery, workflow improvement, requirements collaboration, and delivery support. Detailed matching rules, cost estimation methods, and proprietary data logic are intentionally omitted.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+    <section class="section case-study case-panel" hidden="" id="appointment-scheduling">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        Product Design &amp; Planning
+       </div>
+       <h3>
+        Appointment Scheduling
+       </h3>
+       <p>
+        <b>
+         Challenge:
+        </b>
+        Make busy scheduling workflows easier to read, navigate, and manage.
+       </p>
+       <p>
+        <b>
+         Contribution:
+        </b>
+        Designed and refined an intuitive scheduling experience focused on visual clarity and fewer steps for common tasks.
+       </p>
+       <p>
+        <b>
+         Skills:
+        </b>
+        UX/UI design · Interaction design · Workflow planning · Usability
+       </p>
+       <a class="case-link" href="#detail-appointment-scheduling">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       Scheduling &amp; UX Design
+      </div>
+      <h2 id="detail-appointment-scheduling">
+       Designing Appointment Scheduling Around Clarity and Speed.
+      </h2>
+      <p class="intro">
+       Appointment Scheduling · Healthcare SaaS · Interaction design · Usability
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         Everyday scheduling should not feel complicated.
+        </h3>
+        <p>
+         Appointment scheduling requires staff to navigate busy calendars, interpret information quickly, and make frequent changes without losing their place. Dense interfaces, hard-to-read labels, and unnecessary steps can turn routine administrative work into a frustrating experience.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Prioritize readability, ease of finding features, and fewer interactions.
+        </h3>
+        <p>
+         I designed an appointment scheduling experience around the practical needs of staff working through a busy day. My approach emphasized clear layout, readable appointment information, obvious actions, and reducing the number of steps needed for common scheduling tasks.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       From a busy calendar to a clear next action
+      </h3>
+      <div aria-label="From a busy calendar to a clear next action" class="journey">
+       <div class="journey-step">
+        <h4>
+         Scan
+        </h4>
+        <p>
+         Make daily schedules and appointment details easy to understand.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Act
+        </h4>
+        <p>
+         Keep frequent scheduling actions clear and accessible.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Adjust
+        </h4>
+        <p>
+         Support quick changes without unnecessary navigation.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         Visual Clarity
+        </div>
+        <h4>
+         Readable schedules at a glance
+        </h4>
+        <p>
+         Focused on typography, contrast, spacing, and the presentation of appointment information so staff could quickly interpret a busy calendar without straining to read it.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Interaction Design
+        </div>
+        <h4>
+         Common actions within easy reach
+        </h4>
+        <p>
+         Designed around the idea that frequently used scheduling functions should be discoverable and require as few interactions as practical.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Calendar Navigation
+        </div>
+        <h4>
+         A simpler day-to-day experience
+        </h4>
+        <p>
+         Organized the experience around the way staff move between dates and appointments, helping users maintain context as they review and manage schedules.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Scheduling Changes
+        </div>
+        <h4>
+         Less friction when plans change
+        </h4>
+        <p>
+         Prioritized straightforward appointment adjustments so routine changes could be handled without a complicated sequence of screens.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Administrative Efficiency
+        </div>
+        <h4>
+         Related tasks in the right context
+        </h4>
+        <p>
+         Considered how related administrative tasks, including eligibility review, could be accessed conveniently within the scheduling experience.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Iterative Product Design
+        </div>
+        <h4>
+         Refining an experience over time
+        </h4>
+        <p>
+         Revisited the interface over time to improve usability and visual polish, applying lessons learned from other healthcare workflows.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        A Clearer, Easier-to-Use Scheduling Experience.
+       </h3>
+       <p>
+        The design emphasized readability, clear controls, and efficient interactions for everyday scheduling work. It reflects my approach to building software that respects users’ time and makes complex administrative environments easier to navigate.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Product design, UX/UI design, workflow planning, and ongoing improvements. This case study describes design work and does not claim measured adoption or performance outcomes.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+    <section class="section case-study case-panel" hidden="" id="provider-assessment">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        Clinical Workflow &amp; Claims Integration
+       </div>
+       <h3>
+        Electronic Provider Assessment Form
+       </h3>
+       <p>
+        Challenge: Make a complex, recurring provider assessment process easier to complete and connect with related administrative work.
+       </p>
+       <p>
+        Contribution: Helped develop a structured assessment experience and integrate it with existing claims workflows to reduce duplicate effort.
+       </p>
+       <p>
+        Skills: Workflow design · Product integration · Requirements analysis · Healthcare operations
+       </p>
+       <a class="case-link" href="#detail-provider-assessment">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       Clinical Assessments &amp; Workflow Integration
+      </div>
+      <h2 id="detail-provider-assessment">
+       Connecting Provider Assessments to a More Efficient Workflow.
+      </h2>
+      <p class="intro">
+       Electronic Provider Assessment Form · Healthcare SaaS · Workflow automation · Product integration
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         A detailed assessment process created additional administrative work.
+        </h3>
+        <p>
+         Care teams needed to complete detailed patient assessments that involved multiple clinical and administrative requirements. When assessment documentation and related submission activities were handled separately, staff faced extra steps and opportunities for inconsistency.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Connect clinical documentation with the next operational step.
+        </h3>
+        <p>
+         I helped shape a structured digital assessment experience that brought the required information into one workflow. A key focus was connecting completed assessment work with existing administrative processes so users would not have to repeat information or manually initiate every next step.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       From assessment to connected follow-through
+      </h3>
+      <div aria-label="Provider assessment workflow" class="journey">
+       <div class="journey-step">
+        <h4>
+         Complete
+        </h4>
+        <p>
+         Guide users through the information needed for a detailed assessment.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Connect
+        </h4>
+        <p>
+         Carry completed work into the appropriate related process.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Track
+        </h4>
+        <p>
+         Give teams visibility into the progress of associated administrative activity.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         Structured Documentation
+        </div>
+        <h4>
+         A detailed assessment in one place
+        </h4>
+        <p>
+         Helped organize a broad set of assessment requirements into a easy-to-follow digital form, supporting more complete and standardized patient reviews.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         User Experience
+        </div>
+        <h4>
+         Making detailed requirements manageable
+        </h4>
+        <p>
+         Focused on making a substantial documentation task easier to navigate, with a clearer sequence and less uncertainty about what remained to be completed.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Workflow Integration
+        </div>
+        <h4>
+         Connecting previously separate workflows
+        </h4>
+        <p>
+         Contributed to integrating assessment completion with existing claims-related functionality, reducing the need for staff to repeat information across separate activities.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Administrative Efficiency
+        </div>
+        <h4>
+         Reducing repetitive follow-up work
+        </h4>
+        <p>
+         Helped identify opportunities to streamline the administrative work associated with completed assessments so teams could spend less time on routine handoffs.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Status Visibility
+        </div>
+        <h4>
+         Clearer insight into what happened next
+        </h4>
+        <p>
+         Supported visibility into the status of related submission activity, helping users understand whether follow-through had occurred without relying on disconnected processes.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Requirements Translation
+        </div>
+        <h4>
+         Turning complex needs into usable software
+        </h4>
+        <p>
+         Translated specific business and documentation requirements into software features that fit within the broader healthcare platform.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        A Simpler, Connected Assessment Process.
+       </h3>
+       <p>
+        The project brought detailed provider assessments and related administrative work into a more connected experience. Its value lay in simplifying a demanding documentation process, reducing repetitive steps, and making what happened next easier to follow.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Product requirements, workflow design, and integration across modules in collaboration with the development team. Specific payer requirements and implementation rules are intentionally omitted.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+    <section class="section case-study case-panel" hidden="" id="patient-chart">
+     <div class="wrap">
+      <article class="card case-summary">
+       <div class="tag">
+        Patient-Centric Product Architecture
+       </div>
+       <h3>
+        Patient Chart &amp; Unified Patient Experience
+       </h3>
+       <p>
+        Challenge: A membership-oriented platform presented one person across multiple insurance records, fragmenting the patient experience.
+       </p>
+       <p>
+        Contribution: Helped lead the shift toward a unified patient chart that brought insurance history, medical information, and related workflows together.
+       </p>
+       <p>
+        Skills: Product strategy · Complex workflow design · record matching · integration across modules
+       </p>
+       <a class="case-link" href="#detail-patient-chart">
+        Jump to detailed case study
+       </a>
+      </article>
+      <div class="eyebrow">
+       Patient-Centric Platform Transformation
+      </div>
+      <h2 id="detail-patient-chart">
+       Transforming a Membership-Based Platform into a patient-focused experience.
+      </h2>
+      <p class="intro">
+       Unified Patient Chart · Healthcare SaaS · product redesign · connected modules
+      </p>
+      <div class="case-lead">
+       <div>
+        <div class="tag">
+         The problem
+        </div>
+        <h3>
+         Insurance memberships did not tell the full patient story.
+        </h3>
+        <p>
+         The platform originally reflected the way payers supplied data: by insurance membership. As patients changed insurance plans over time, the same patient could appear under several records, making it difficult for clients to see a continuous patient history or understand which information belonged together.
+        </p>
+       </div>
+       <div>
+        <div class="tag">
+         My approach
+        </div>
+        <h3>
+         Put the patient first, not the insurance policy.
+        </h3>
+        <p>
+         I helped design a patient chart that brought all of a patient's information into one place, even when they changed insurance plans. This included their medical history, insurance information, and features from other parts of the system. We also made it easier to find and combine duplicate patient records, and to correct mistakes when needed.
+        </p>
+       </div>
+      </div>
+      <h3 class="case-subhead">
+       From fragmented memberships to one patient view
+      </h3>
+      <div aria-label="Unified patient chart workflow" class="journey">
+       <div class="journey-step">
+        <h4>
+         Identify
+        </h4>
+        <p>
+         Find insurance records that may belong to the same patient.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Unify
+        </h4>
+        <p>
+         Show insurance and medical information together in one patient chart.
+        </p>
+       </div>
+       <div aria-hidden="true" class="journey-arrow">
+        →
+       </div>
+       <div class="journey-step">
+        <h4>
+         Navigate
+        </h4>
+        <p>
+         See the patient’s history and related tools in one place.
+        </p>
+       </div>
+      </div>
+      <div class="case-features">
+       <article class="case-feature">
+        <div class="tag">
+         product redesign
+        </div>
+        <h4>
+         From membership records to patient-focused navigation
+        </h4>
+        <p>
+         Helped change how users found and viewed patients in a platform originally organized around payer memberships, reducing the confusion caused by multiple coverage records.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Patient Record Management
+        </div>
+        <h4>
+         Supporting record linking and correction
+        </h4>
+        <p>
+         Contributed to workflows for recognizing potentially related records, reviewing suspected duplicates, and correcting linked patient records when needed, with attention to the importance of data accuracy.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Longitudinal View
+        </div>
+        <h4>
+         An understandable insurance history
+        </h4>
+        <p>
+         Helped present changes in insurance coverage as a clear timeline, giving teams a continuous view across payers and policies without requiring them to piece together separate records.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         medical information
+        </div>
+        <h4>
+         A more complete patient summary
+        </h4>
+        <p>
+         Brought demographics, coverage information, and medical history organized by category into one accessible view so staff could understand relevant patient context more efficiently.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         connected modules
+        </div>
+        <h4>
+         Bringing related workflows together
+        </h4>
+        <p>
+         Connected existing functionality—including CRM activities, surveys, and communication history—within the patient chart to create a more connected experience across the platform.
+        </p>
+       </article>
+       <article class="case-feature">
+        <div class="tag">
+         Usability at Scale
+        </div>
+        <h4>
+         Keeping a complex system easy to use
+        </h4>
+        <p>
+         Focused on making a technically substantial, information-rich module straightforward to navigate for everyday users.
+        </p>
+       </article>
+      </div>
+      <div class="case-outcome">
+       <div class="tag">
+        Designed business value
+       </div>
+       <h3>
+        One Patient Chart, All the Information in One Place.
+       </h3>
+       <p>
+        The unified patient chart organized information around the patient rather than separate insurance memberships. It helped reduce separate records, made patient history easier to follow, and created a single place to start for clinical, administrative, and engagement workflows.
+       </p>
+      </div>
+      <p class="case-footnote">
+       Role: Product requirements, user experience and workflow design, and coordination across interconnected platform capabilities. Specific patient-matching criteria and implementation details are intentionally omitted.
+      </p>
+      <a class="case-back" href="#case-browser">
+       ↑ Back to all projects
+      </a>
+     </div>
+    </section>
+   </div>
+   <section class="section case-study case-panel" hidden="" id="reporting-dashboards">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Healthcare Analytics &amp; Reporting
+      </div>
+      <h3>
+       Reporting &amp; Dashboards
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Make complex information from different insurance payers easier to understand and use.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Defined requirements and helped design roughly 30–40 dashboards and more than 150 reports, working with report writers to bring payer information into shared views.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Reporting requirements · Data integration · SSRS · Product design · QA
+      </p>
+      <a class="case-link" href="#detail-reporting-dashboards">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Healthcare Analytics &amp; Reporting
+     </div>
+     <h2 id="detail-reporting-dashboards">
+      Making Healthcare Reporting Easier to Use Across Payers.
+     </h2>
+     <p class="intro">
+      Integrated dashboards · Report consolidation · SSRS · Flexible reporting
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Separate payer data made it hard to see the full picture.
+       </h3>
+       <p>
+        Clients needed to review membership, claims expenses, funding, and operational activity across different payers. Separate reports could make that work slow and confusing, especially as the number of reports grew.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Bring related information together and make it easier to explore.
+       </h3>
+       <p>
+        I worked with clients and report writers to define what each report or dashboard needed to show, how users should filter the information, and how results from different sources should appear together. I also helped simplify the reporting library by combining overlapping reports.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Reporting &amp; Dashboards workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Understand
+       </h4>
+       <p>
+        Define the questions clients need answered.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Design
+       </h4>
+       <p>
+        Organize payer information, views, and filters.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Improve
+       </h4>
+       <p>
+        Test results and simplify the reporting experience.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Integrated views
+       </div>
+       <h4>
+        Reporting across payers
+       </h4>
+       <p>
+        Helped design dashboards that brought information from multiple payers into one view, including membership, claims expenses, and funding.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Operational dashboards
+       </div>
+       <h4>
+        Useful views for day-to-day work
+       </h4>
+       <p>
+        Defined dashboards for different modules so teams could review activity and progress without piecing together separate reports.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Report consolidation
+       </div>
+       <h4>
+        Fewer reports, more flexibility
+       </h4>
+       <p>
+        Helped combine many overlapping reports into a smaller set of reports with broader filtering options, while protecting existing saved favorites.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Reporting engine
+       </div>
+       <h4>
+        Changes without a full release
+       </h4>
+       <p>
+        Contributed to a configurable reporting engine that supported updates to certain filters and report settings without a full application release.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Technical collaboration
+       </div>
+       <h4>
+        Working with SSRS report writers
+       </h4>
+       <p>
+        Defined business requirements, reviewed outputs, and worked closely with developers who built the reports in SQL Server Reporting Services (SSRS).
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Product scale
+       </div>
+       <h4>
+        A large reporting portfolio
+       </h4>
+       <p>
+        Worked on approximately 30–40 dashboards and more than 150 reports over time, across different parts of the platform.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       A Clearer View Across Payers.
+      </h3>
+      <p>
+       Clients could review related information in fewer places, and teams had a more flexible way to maintain and improve reports. The work focused on making complex information understandable and useful.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Business and reporting requirements, dashboard design, collaboration with SSRS report writers, validation, and delivery coordination. Report writers handled SSRS implementation. Specific calculations and proprietary reporting logic are not included.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="account-settings">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       UI/UX Design &amp; User Administration
+      </div>
+      <h3>
+       Account Settings &amp; User Management
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Replace a difficult, administrator-focused account screen with a clearer experience for both users and administrators.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Personally designed the complete account settings interface and its workflows in Figma, including profiles, permissions, access, and preferences.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Figma · UI/UX design · Permissions · Workflow design · Product requirements
+      </p>
+      <a class="case-link" href="#detail-account-settings">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      UI/UX Design &amp; User Administration
+     </div>
+     <h2 id="detail-account-settings">
+      Redesigning Account Settings for Users and Administrators.
+     </h2>
+     <p class="intro">
+      Full interface design in Figma · User profiles · Roles · Preferences
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Account management was hard to navigate.
+       </h3>
+       <p>
+        The existing account screen was mainly available to administrators and centered on editing information. Regular users needed a clearer way to manage their own settings, while administrators needed to handle more complex account and access decisions.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Design one clear experience for two different kinds of users.
+       </h3>
+       <p>
+        I designed the full interface in Figma, from page layout and buttons to the workflows for viewing and changing settings. I separated everyday account preferences from administrator-only controls so each user could find what they needed.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Account Settings &amp; User Management workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Organize
+       </h4>
+       <p>
+        Group profile, preferences, and access settings.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Design
+       </h4>
+       <p>
+        Create the full interface and workflows in Figma.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Separate
+       </h4>
+       <p>
+        Show the right controls to users and administrators.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Figma design
+       </div>
+       <h4>
+        End-to-end interface design
+       </h4>
+       <p>
+        Designed the entire account settings interface, including navigation, buttons, layouts, and key workflows.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Profiles
+       </div>
+       <h4>
+        A better experience for regular users
+       </h4>
+       <p>
+        Made it possible to view and manage personal account information without relying on an administrator-only editing screen.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Roles
+       </div>
+       <h4>
+        Clearer permission management
+       </h4>
+       <p>
+        Designed administrator views for managing roles, which group access to different features and reports.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Notifications
+       </div>
+       <h4>
+        More control over alerts
+       </h4>
+       <p>
+        Designed preferences for receiving notifications, including the days and hours when text alerts should be delivered.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Search preferences
+       </div>
+       <h4>
+        Remembering filters
+       </h4>
+       <p>
+        Proposed a setting to retain search filters as users moved between pages during a session.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Access management
+       </div>
+       <h4>
+        Contracts and providers
+       </h4>
+       <p>
+        Organized administrator workflows for managing access to contracts and providers, while keeping those controls separate from regular user settings.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       A More Usable Account Experience.
+      </h3>
+      <p>
+       The redesign brought account settings into one organized experience and made complex administration tasks easier to navigate, while giving regular users access to their own preferences.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Complete UI/UX design in Figma, product requirements, workflow planning, and coordination with development. Detailed permission rules and access configurations are intentionally omitted.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="survey-component">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Reusable Product Components
+      </div>
+      <h3>
+       Configurable Survey Component
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Stop rebuilding or modifying survey interfaces every time a client requested different questions.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Helped shape a reusable survey component that displayed client-specific surveys from configuration data and made completed surveys available across modules.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Reusable components · Product scalability · Workflow design · Data consistency
+      </p>
+      <a class="case-link" href="#detail-survey-component">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Reusable Product Components
+     </div>
+     <h2 id="detail-survey-component">
+      Turning Custom Surveys into a Reusable Component.
+     </h2>
+     <p class="intro">
+      Configurable surveys · Shared patient history · Cross-module reuse
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Every new client brought different survey requests.
+       </h3>
+       <p>
+        Surveys first became part of the Patient CRM, but clients often needed different questions and answers. Building each survey separately was difficult to maintain as more organizations started using the platform.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Build one component that could support many surveys.
+       </h3>
+       <p>
+        I helped develop a shared survey experience where questions and answer choices could be configured for each client. The same interface adapted to different surveys and could be used throughout the platform.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Configurable Survey Component workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Configure
+       </h4>
+       <p>
+        Set up client-specific questions and answers.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Complete
+       </h4>
+       <p>
+        Use the same survey interface across modules.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Review
+       </h4>
+       <p>
+        See earlier responses in the patient chart.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Configuration
+       </div>
+       <h4>
+        Client-specific surveys
+       </h4>
+       <p>
+        Surveys could be generated from configured questions and answer choices without building a new interface each time.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Flexible UI
+       </div>
+       <h4>
+        One layout for different surveys
+       </h4>
+       <p>
+        The component adjusted to different survey structures and supported collapsible sections.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Survey history
+       </div>
+       <h4>
+        Preserve completed responses
+       </h4>
+       <p>
+        Recorded when surveys were completed, which user completed them, and the answers provided.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Repeat surveys
+       </div>
+       <h4>
+        Support follow-up assessments
+       </h4>
+       <p>
+        Users could retake a survey while keeping earlier responses available.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Cross-module access
+       </div>
+       <h4>
+        Surveys in the patient chart
+       </h4>
+       <p>
+        A survey completed in one module could also be reviewed from the patient chart.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Reusable design
+       </div>
+       <h4>
+        Built beyond the original CRM
+       </h4>
+       <p>
+        The component grew from a CRM need into a shared feature that could support multiple clients and workflows.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       Less Repeated Work, More Consistent Surveys.
+      </h3>
+      <p>
+       The reusable component made it easier to support new client survey requirements and kept survey history connected to the patient across modules.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Requirements, shared component and workflow design, usability, and coordination with development. Survey configuration details and client-specific questions are not included.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="downstream-providers">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Financial Workflows
+      </div>
+      <h3>
+       Downstream Providers — Financial Accounting
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Give clients one place to review payer funding information and payments made to downstream providers.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Helped design a financial view that combined automated payer reconciliation information with payments recorded by the client.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Financial workflows · Requirements · Healthcare payer data · UI design
+      </p>
+      <a class="case-link" href="#detail-downstream-providers">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Financial Workflows
+     </div>
+     <h2 id="detail-downstream-providers">
+      Making Downstream Provider Payments Easier to Track.
+     </h2>
+     <p class="intro">
+      Funding reconciliation · Contracts and groupers · Payment history
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Funding information and payment history were hard to review together.
+       </h3>
+       <p>
+        Clients needed to understand funding and payment activity for their downstream providers. Payer reconciliation data and manually recorded payments served different purposes, but both were important for reviewing balances.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Bring both sides of the picture into one screen.
+       </h3>
+       <p>
+        I helped design a module where clients could look up a contract or grouper and review payer-provided funding reconciliation information alongside their own recorded downstream payments.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Downstream Providers — Financial Accounting workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Select
+       </h4>
+       <p>
+        Choose a contract or grouper.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Review
+       </h4>
+       <p>
+        See payer reconciliation data and running balances.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Compare
+       </h4>
+       <p>
+        Review manually recorded payments below.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Contract views
+       </div>
+       <h4>
+        Contracts and groupers
+       </h4>
+       <p>
+        Allowed users to find the relevant contract or a grouper containing multiple contracts.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Payer data
+       </div>
+       <h4>
+        Funding reconciliation
+       </h4>
+       <p>
+        Displayed reconciliation information received through payer data files, including a running balance.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Payment history
+       </div>
+       <h4>
+        Client-recorded payments
+       </h4>
+       <p>
+        Provided a separate view of payments the client had made to downstream providers.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        One screen
+       </div>
+       <h4>
+        Information side by side
+       </h4>
+       <p>
+        Organized automated funding data and manual payment records in one place for easier review.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       Better Visibility Into Downstream Payments.
+      </h3>
+      <p>
+       The module gave clients a clearer view of funding, recorded payments, and balances that might need attention, with a design that could support additional clients over time.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Product requirements, financial workflow design, and development coordination. Client-specific financial arrangements and reconciliation logic are not disclosed.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="task-manager">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Cross-Module Workflow
+      </div>
+      <h3>
+       Task Manager — Unified Reminders
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Reminders were spread across individual modules and their dashboards.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Helped create a shared place to view and manage reminders from across the platform.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Workflow design · Cross-module integration · Usability
+      </p>
+      <a class="case-link" href="#detail-task-manager">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Cross-Module Workflow
+     </div>
+     <h2 id="detail-task-manager">
+      Bringing Reminders from Every Module into One Place.
+     </h2>
+     <p class="intro">
+      Task management · Patient follow-up · Shared workflows
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Users had to look in different places for reminders.
+       </h3>
+       <p>
+        Staff could create follow-up reminders through contact logs and other modules, but those reminders were displayed in separate module dashboards. That made it harder to see everything that needed attention.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Keep the familiar reminders, but bring them together.
+       </h3>
+       <p>
+        I helped create a unified Task Manager that displayed reminders regardless of which module they came from, who created them, or who was assigned to complete them.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Task Manager — Unified Reminders workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Create
+       </h4>
+       <p>
+        Set a reminder during normal work.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Collect
+       </h4>
+       <p>
+        Bring reminders from different modules together.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Follow up
+       </h4>
+       <p>
+        Review assigned work in one place.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Unified view
+       </div>
+       <h4>
+        One place for reminders
+       </h4>
+       <p>
+        Brought reminders from multiple modules into a single task list.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Assignments
+       </div>
+       <h4>
+        See who is responsible
+       </h4>
+       <p>
+        Included tasks created by different users and assigned to different staff members.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Patient outreach
+       </div>
+       <h4>
+        Support follow-up work
+       </h4>
+       <p>
+        Connected reminders created through contact logs with a broader task management view.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Consistency
+       </div>
+       <h4>
+        Build on existing workflows
+       </h4>
+       <p>
+        Reused familiar reminder functionality rather than asking users to learn a completely separate process.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       Fewer Places to Check.
+      </h3>
+      <p>
+       The Task Manager gave staff a simpler way to keep track of follow-up work across the platform.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Product requirements, workflow design, and cross-module coordination.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="rewards-program">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Configurable Programs &amp; Healthcare Workflows
+      </div>
+      <h3>
+       Healthcare Rewards Program
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Give healthcare clients a practical way to manage patient rewards without building a separate program for every payer or line of business.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Helped design a flexible rewards module where administrators could define how patients earn points, which rewards are available, and who qualifies.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Product requirements · Workflow design · Configurable rules · Healthcare operations · UI/UX
+      </p>
+      <a class="case-link" href="#detail-rewards-program">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Configurable Programs &amp; Healthcare Workflows
+     </div>
+     <h2 id="detail-rewards-program">
+      Building a Flexible Healthcare Rewards Program.
+     </h2>
+     <p class="intro">
+      Administrative setup · Patient points · Reward eligibility · Regulatory guidance
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Different clients needed different rewards programs.
+       </h3>
+       <p>
+        Healthcare organizations wanted to encourage patients to complete certain activities, such as preventive visits, by offering points they could exchange for rewards. But program rules could vary by client, payer, and line of business. A fixed set of rules would be difficult to maintain and too limiting for clients.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Let administrators configure the program themselves.
+       </h3>
+       <p>
+        I helped design an administrative interface where clients could define qualifying activities, point values, available rewards, and eligibility rules. Staff could then use the patient-facing workflow to award points and redeem rewards according to the program their organization had set up.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Rewards Program workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Configure
+       </h4>
+       <p>
+        Administrators set activities, points, rewards, and eligibility.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Earn
+       </h4>
+       <p>
+        Patients accumulate points for qualifying activities.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Redeem
+       </h4>
+       <p>
+        Staff issue available rewards when point requirements are met.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Program setup
+       </div>
+       <h4>
+        Rules managed through the interface
+       </h4>
+       <p>
+        Administrators could create and change program rules without needing a separate custom-built workflow for each client.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Points
+       </div>
+       <h4>
+        Qualifying activities
+       </h4>
+       <p>
+        Clients could choose which patient activities earned points and how many points each activity was worth.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Rewards
+       </div>
+       <h4>
+        Flexible reward options
+       </h4>
+       <p>
+        Administrators could define available rewards and the points required to redeem them.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Eligibility
+       </div>
+       <h4>
+        Different program audiences
+       </h4>
+       <p>
+        Rules could include or exclude patients based on payer or line of business, including commercial, Medicare, and Medicaid.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Staff workflow
+       </div>
+       <h4>
+        Clear redemption requirements
+       </h4>
+       <p>
+        Staff could work within the configured point and reward requirements instead of deciding reward amounts on their own.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Guidance
+       </div>
+       <h4>
+        Regulatory reminders
+       </h4>
+       <p>
+        The interface included guidance about relevant program restrictions. Clients remained responsible for confirming that their rewards complied with applicable requirements.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       More Flexibility Without More Custom Development.
+      </h3>
+      <p>
+       The module gave clients a way to manage different rewards programs through one reusable system. It also made program setup more flexible while keeping the everyday points and redemption workflow straightforward for staff.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Product requirements, administrative workflow design, and coordination with development. Specific program rules and internal implementation details are intentionally omitted.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="automated-reporting">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Reporting Automation
+      </div>
+      <h3>
+       Automated Reporting &amp; Notifications
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Users needed an easier way to find new reports and avoid running the same reports manually whenever fresh data arrived.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Helped improve favorite report tracking and notifications, and worked on scheduled report generation that was still in development when I left.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Reporting workflows · Product requirements · Notifications · Release planning
+      </p>
+      <a class="case-link" href="#detail-automated-reporting">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Reporting Automation
+     </div>
+     <h2 id="detail-automated-reporting">
+      Making Recurring Reports Easier to Find and Receive.
+     </h2>
+     <p class="intro">
+      Favorite reports · Report history · Notifications · Automation
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Finding the latest report still took manual work.
+       </h3>
+       <p>
+        Users could save favorite reports, but the system needed a better way to track runs of those favorites and show when a new result was available. Recurring reports also required users to generate the same information again when new data arrived.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Improve report tracking first, then automate recurring work.
+       </h3>
+       <p>
+        I worked on improvements to the favorite reports experience, including a dedicated history for favorite report runs and clearer notifications for new results. I also helped define automated generation of selected reports when updated data became available.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Automated Reporting &amp; Notifications workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Track
+       </h4>
+       <p>
+        Record runs of favorite reports.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Notify
+       </h4>
+       <p>
+        Show users when new results are ready.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Automate
+       </h4>
+       <p>
+        Prepare recurring generation when new data arrives.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Report history
+       </div>
+       <h4>
+        Track favorite report runs
+       </h4>
+       <p>
+        Added a dedicated way to track reports generated through the favorites experience.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        New results
+       </div>
+       <h4>
+        Make updates easier to spot
+       </h4>
+       <p>
+        Helped users identify newly available reports, including results shared with them.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Recurring reports
+       </div>
+       <h4>
+        Generate reports from new data
+       </h4>
+       <p>
+        Worked on a planned feature to generate selected reports automatically when new data was received.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Notifications
+       </div>
+       <h4>
+        Tell users when reports are ready
+       </h4>
+       <p>
+        Designed a flow to notify users and direct them to the favorite reports area to review new results.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       A Clear Path Toward Less Manual Reporting.
+      </h3>
+      <p>
+       The tracking and notification improvements made new report results easier to find. Automated recurring generation was close to completion but still in development when my employment ended.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Requirements, reporting workflow design, coordination, and validation. Automated recurring generation was not yet completed when I left; it is presented here as in-progress work.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="patient-messaging">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Patient Communication
+      </div>
+      <h3>
+       Patient Messaging &amp; Templates
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Reaching many patients with the same follow-up message took unnecessary time.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Helped connect reusable message templates with individual and bulk patient communication through text and email.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       Patient outreach · Workflow design · Reporting integration · Administration
+      </p>
+      <a class="case-link" href="#detail-patient-messaging">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Patient Communication
+     </div>
+     <h2 id="detail-patient-messaging">
+      Simplifying Patient Outreach with Reusable Messages.
+     </h2>
+     <p class="intro">
+      Message templates · Text and email · Bulk outreach · Reporting
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Routine patient outreach was too repetitive.
+       </h3>
+       <p>
+        Healthcare teams often needed to send similar reminders or follow-up messages to many patients. Contacting each person individually was time-consuming, especially when reports already identified the patients who needed outreach.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Connect report results directly to messaging.
+       </h3>
+       <p>
+        I helped develop a way to send predefined messages to one patient or to a group selected from a report. Users could send text messages, emails, or both, using default templates or additional templates created by administrators.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Patient Messaging &amp; Templates workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Find
+       </h4>
+       <p>
+        Run a report to identify patients.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Choose
+       </h4>
+       <p>
+        Select patients and a message template.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Send
+       </h4>
+       <p>
+        Deliver the message by text, email, or both.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Templates
+       </div>
+       <h4>
+        Reusable messages
+       </h4>
+       <p>
+        Included default templates and allowed administrators to create additional messages for common outreach needs.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Individual messages
+       </div>
+       <h4>
+        Contact one patient
+       </h4>
+       <p>
+        Supported sending a message directly to an individual patient.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Bulk outreach
+       </div>
+       <h4>
+        Reach groups from reports
+       </h4>
+       <p>
+        Allowed users to select patients from report results and send a shared message in one workflow.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Channels
+       </div>
+       <h4>
+        Text and email
+       </h4>
+       <p>
+        Supported communication by text message, email, or both at the same time.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Care follow-up
+       </div>
+       <h4>
+        Support routine outreach
+       </h4>
+       <p>
+        Helped teams contact patients who appeared in follow-up reports, such as those due for a primary care visit.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       Faster, More Consistent Patient Outreach.
+      </h3>
+      <p>
+       The feature connected reporting and communication so teams could follow up with groups of patients without writing or sending each message individually.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Product requirements, workflow design, reporting integration, and development coordination. No patient information or actual message content is included.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section case-study case-panel" hidden="" id="patient-accounting">
+    <div class="wrap">
+     <article class="card case-summary">
+      <div class="tag">
+       Revenue Cycle Management
+      </div>
+      <h3>
+       Patient Accounting — Charges &amp; Payments
+      </h3>
+      <p>
+       <b>
+        Challenge:
+       </b>
+       Make patient charges, payments, and financial corrections easier to manage while protecting sensitive transactions.
+      </p>
+      <p>
+       <b>
+        My contribution:
+       </b>
+       Worked on the patient accounting portion of RCM, including charge and payment workflows, voids, adjustments, write-offs, and related permissions.
+      </p>
+      <p>
+       <b>
+        Skills:
+       </b>
+       RCM · Patient accounting · Financial workflows · Permissions · QA
+      </p>
+      <a class="case-link" href="#detail-patient-accounting">
+       Jump to detailed case study
+      </a>
+     </article>
+     <div class="eyebrow">
+      Revenue Cycle Management
+     </div>
+     <h2 id="detail-patient-accounting">
+      Improving Patient Charge and Payment Workflows.
+     </h2>
+     <p class="intro">
+      Revenue cycle management · Charges · Payments · Financial controls
+     </p>
+     <div class="case-lead">
+      <div>
+       <div class="tag">
+        The problem
+       </div>
+       <h3>
+        Patient financial activity needs clear workflows and controls.
+       </h3>
+       <p>
+        Staff needed a reliable way to create charges, record and apply payments, and make corrections. Because these actions affect financial records, the system also needed appropriate controls over who could perform them.
+       </p>
+      </div>
+      <div>
+       <div class="tag">
+        My approach
+       </div>
+       <h3>
+        Make everyday accounting tasks clear and controlled.
+       </h3>
+       <p>
+        I helped define the patient accounting experience, focusing on how staff create and manage charges, collect and apply payments, and handle adjustments, voids, and write-offs. I also worked on permissions around sensitive financial actions.
+       </p>
+      </div>
+     </div>
+     <h3 class="case-subhead">
+      How the workflow comes together
+     </h3>
+     <div aria-label="Patient Accounting — Charges &amp; Payments workflow" class="journey">
+      <div class="journey-step">
+       <h4>
+        Charge
+       </h4>
+       <p>
+        Create and manage patient charges.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Pay
+       </h4>
+       <p>
+        Record payments and apply them to charges.
+       </p>
+      </div>
+      <div aria-hidden="true" class="journey-arrow">
+       →
+      </div>
+      <div class="journey-step">
+       <h4>
+        Correct
+       </h4>
+       <p>
+        Handle authorized adjustments and reversals.
+       </p>
+      </div>
+     </div>
+     <div class="case-features">
+      <article class="case-feature">
+       <div class="tag">
+        Charges
+       </div>
+       <h4>
+        Patient charge management
+       </h4>
+       <p>
+        Worked on workflows for creating and managing charges on a patient account.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Payments
+       </div>
+       <h4>
+        Collection and application
+       </h4>
+       <p>
+        Helped design how payments are recorded and applied to existing charges.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Corrections
+       </div>
+       <h4>
+        Voids and adjustments
+       </h4>
+       <p>
+        Supported workflows for voiding transactions, making adjustments, and writing off balances when appropriate.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Controls
+       </div>
+       <h4>
+        Permission-aware actions
+       </h4>
+       <p>
+        Helped define controls so sensitive financial actions were limited to authorized users.
+       </p>
+      </article>
+      <article class="case-feature">
+       <div class="tag">
+        Account clarity
+       </div>
+       <h4>
+        Understand the patient balance
+       </h4>
+       <p>
+        Focused on making charges, payments, and remaining balances easier to review.
+       </p>
+      </article>
+     </div>
+     <div class="case-outcome">
+      <div class="tag">
+       Business value
+      </div>
+      <h3>
+       Clearer Patient Financial Workflows.
+      </h3>
+      <p>
+       The patient accounting functionality helped staff manage routine financial activity and corrections within a more organized, controlled process.
+      </p>
+     </div>
+     <p class="case-footnote">
+      Role: Patient accounting requirements, workflow design, financial controls, and development coordination. This work did not include automated EOB processing, remittance posting, or the full RCM platform.
+     </p>
+     <a class="case-back" href="#case-browser">
+      ↑ Back to all projects
+     </a>
+    </div>
+   </section>
+   <section class="section" id="process">
+    <div class="wrap">
+     <div class="eyebrow">
+      How I work
+     </div>
+     <h2>
+      From Request to Release
+     </h2>
+     <div class="rule">
+     </div>
+     <div class="split">
+      <div>
+       <p class="intro">
+        My work combined direct client discovery and product improvement recommendations with delivery coordination: clarifying needs, collaborating with the Product Owner on priorities, translating approved work into development tasks, and validating results.
+       </p>
+       <ul class="process-list">
+        <li>
+         <b>
+          Clarify the request
+         </b>
+         <span class="muted">
+          Interpret business needs, expected functionality, and workflow requirements.
+         </span>
+        </li>
+        <li>
+         <b>
+          Organize development
+         </b>
+         <span class="muted">
+          Create actionable tasks for web, API, and backend developers.
+         </span>
+        </li>
+        <li>
+         <b>
+          Validate delivery
+         </b>
+         <span class="muted">
+          Test verifiable web application functionality and communicate defects or gaps.
+         </span>
+        </li>
+        <li>
+         <b>
+          Support release &amp; adoption
+         </b>
+         <span class="muted">
+          Write release notes, answer client questions, and conduct product training.
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="card">
+       <div class="tag">
+        Transferable capabilities
+       </div>
+       <h3>
+        What I bring to product management
+       </h3>
+       <ul>
+        <li>
+         Cross-functional software development coordination
+        </li>
+        <li>
+         Agile sprint execution and task management
+        </li>
+        <li>
+         Breaking feature requests into implementable engineering work
+        </li>
+        <li>
+         Functional testing and issue verification
+        </li>
+        <li>
+         Release documentation and stakeholder communication
+        </li>
+        <li>
+         Customer-facing support, training, and workflow feedback
+        </li>
+       </ul>
+       <p class="note">
+        My professional delivery experience is in healthcare software. I am interested in applying those skills across a broader range of software products and development teams.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section alt" id="about">
+    <div class="wrap">
+     <div class="eyebrow">
+      Background
+     </div>
+     <h2>
+      About Me
+     </h2>
+     <div class="rule">
+     </div>
+     <p>
+      From December 2019 through November 2026, I worked at MedCloud Depot, progressing from support responsibilities into Product Manager and Healthcare Analyst work on Syncrasy. My experience spans product discovery, healthcare workflow design, software delivery, client communication, and product support.
+     </p>
+     <p>
+      I hold a Scrum Master certification through Six Sigma Global Institute (SSGI). My experience includes product modules for patient engagement, care coordination, claims, referrals, alerts, and appointment scheduling.
+     </p>
+     <p>
+      <a href="https://www.credential.net/9599522f-33b2-4cfd-8503-0302dc530ccb#acc.HLaSB3Ob" rel="noopener noreferrer" target="_blank">
+       View Scrum Master credential ↗
+      </a>
+     </p>
+     <p>
+      <b>
+       Tools and platforms:
+      </b>
+      Figma for UI design, SQL Server Reporting Services (SSRS) for reporting requirements and review, and Agile/Scrum delivery workflows.
+     </p>
+    </div>
+   </section>
+   <section class="section" id="contact">
+    <div class="wrap">
+     <div class="eyebrow">
+      Connect
+     </div>
+     <h2>
+      Let's Discuss the Next Product.
+     </h2>
+     <div class="rule">
+     </div>
+     <p class="intro">
+      Interested in Product Management, Technical Production, Product Ownership, and cross-functional software delivery roles.
+     </p>
+     <div class="contact">
+      <a aria-label="Email — joel.drumming@gmail.com" class="contact-action contact-primary" href="mailto:joel.drumming@gmail.com">
+       <span aria-hidden="true" class="contact-icon">
+        ✉
+       </span>
+       Email
+      </a>
+      <a aria-label="Phone — (305) 733-1376" class="contact-action contact-secondary" href="tel:+13057331376">
+       <span aria-hidden="true" class="contact-icon">
+        ☎
+       </span>
+       Phone
+      </a>
+     </div>
+     <p class="contact-details">
+      Email:
+      <a href="mailto:joel.drumming@gmail.com">
+       joel.drumming@gmail.com
+      </a>
+      ·  Phone:
+      <a href="tel:+13057331376">
+       (305) 733-1376
+      </a>
+     </p>
+     <p class="muted">
+      <small>
+       This portfolio intentionally excludes patient information, internal screenshots, proprietary implementation details, and unverified outcome metrics.
+      </small>
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="foot">
+   <div class="wrap">
+    <p>
+     <b>
+      Joel Hernandez
+     </b>
+     · Product Management &amp; Technical Delivery
+    </p>
+    <p>
+     Independent professional portfolio · Not an official MedCloud Depot or Syncrasy website
+    </p>
+   </div>
+  </footer>
+  <script>
+(function(){
+  const ids=['reporting-dashboards','account-settings','patient-crm','case-management','hospital-alerts','claims-referrals','appointment-scheduling','provider-assessment','patient-chart','survey-component','downstream-providers','task-manager','automated-reporting','patient-messaging','patient-accounting'];
+  const tabs=[...document.querySelectorAll('.case-tab')];
+  const browser=document.getElementById('case-browser');
+  let active=null;
+  function show(id,scroll=true){
+    if(!ids.includes(id)) return;
+    active=id;
+    ids.forEach(key=>{
+      const panel=document.getElementById(key);
+      const selected=key===id;
+      panel.hidden=!selected;
+      panel.setAttribute('role','tabpanel');
+      panel.setAttribute('aria-labelledby','tab-'+key);
+    });
+    tabs.forEach(tab=>{
+      const selected=tab.dataset.case===id;
+      tab.setAttribute('aria-selected',String(selected));
+      tab.tabIndex=selected?0:-1;
+    });
+    if(scroll) browser.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  tabs.forEach((tab,index)=>{
+    tab.addEventListener('click',()=>show(tab.dataset.case,false));
+    tab.addEventListener('keydown',e=>{
+      if(!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;
+      e.preventDefault();
+      let next=e.key==='Home'?0:e.key==='End'?tabs.length-1:(index+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;
+      tabs[next].focus();show(tabs[next].dataset.case,false);
+    });
+  });
+  document.querySelectorAll('a[href^="#"]').forEach(link=>{
+    const id=link.getAttribute('href').slice(1);
+    if(ids.includes(id)) link.addEventListener('click',e=>{
+      e.preventDefault();show(id,true);history.replaceState(null,'','#'+id);
+    });
+  });
+  const initial=location.hash.slice(1);
+  if(ids.includes(initial)){show(initial,false);requestAnimationFrame(()=>browser.scrollIntoView({block:'start'}));}else{show(ids[0],false);}
+  window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(ids.includes(id))show(id,true);});
+})();
+</script>
+ </body>
+</html>
